@@ -7,7 +7,7 @@ namespace Server.Context
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Data Source=SERVER;Initial Catalog=IEAPortfolioDb;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False");
+            optionsBuilder.UseSqlServer("your connection information data context info");
         }
         public DbSet<Experience> Experiences { get; set; }
         public DbSet<ProjectApproachy> ProjectApproachies { get; set; }
