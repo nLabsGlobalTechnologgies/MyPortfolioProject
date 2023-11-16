@@ -7,7 +7,7 @@ namespace Portfolio.API.Context
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Data Source=SERVER;Initial Catalog=IEAPortfolioDb;Integrated Security=True;Connect Timeout=100;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False");
+            optionsBuilder.UseSqlServer("your connection information");
         }
         public DbSet<Education> Educations { get; set; }
         public DbSet<Experience> Experiences { get; set; }
