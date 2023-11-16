@@ -44,7 +44,7 @@ namespace Portfolio.API.Context
                 Country = "Türkiye",
                 City = "Elazığ",
                 Freelance = "Available",
-                CvUrl = "https://www.jobseeker.com/d/3foz0mLM0QP18NuMSkYHDN/view",
+                CvUrl = "your link",
                 PhoneNumber = "+9555 444 33 22",
                 Office = "Elazığ"
             };
